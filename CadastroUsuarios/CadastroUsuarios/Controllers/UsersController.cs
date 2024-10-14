@@ -1,4 +1,5 @@
 using CadastroUsuarios.Models;
+using CadastroUsuarios.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -14,7 +15,7 @@ namespace CadastroUsuarios.Controllers
 
 		public async Task<IActionResult> TotalUsersCount()
 		{
-			var count = await _registerService.GetTotalUsersCountAsync(); // Implementar este método no RegisterService
+			var count = await _registerService.GetTotalUsersCountAsync(); 
 			return Json(new { Count = count });
 		}
 
