@@ -34,14 +34,8 @@ No terminal ou prompt de comando, navegue até o diretório onde o seu arquivo J
 Execute o seguinte comando mongoimport para importar o arquivo JSON para o MongoDB:
 
 ```
-   mongoimport --db <nome-do-seu-banco> --collection <nome-da-collection> --file <caminho-do-arquivo-json> --jsonArray
+   mongoimport --db registros --collection usuarios --file <caminho-do-arquivo-json> --jsonArray
 ```
-
-Exemplo:
-```
-   mongoimport --db meu_banco --collection minha_collection --file C:/caminho/para/arquivo/dados.json --jsonArray
-```
-
 
 ## Configurando o MongoDB Driver
 Esta aplicação usa o MongoDB.Driver para se conectar ao banco de dados MongoDB. Se você ainda não tem o driver instalado, siga os passos abaixo:
