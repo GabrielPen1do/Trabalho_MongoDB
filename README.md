@@ -65,7 +65,7 @@ Dentro do arquivo appsettings.json (ou no arquivo de configuração do seu ambie
 
 -No Visual Studio, pressione Ctrl + F5 ou clique em Run para iniciar a aplicação.
 
-Problemas Conhecidos:
+## Problemas Conhecidos:
 
 -Certifique-se de que a string de conexão para o MongoDB está corretamente configurada.
 
