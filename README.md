@@ -24,7 +24,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
      cd <nome-da-pasta-do-repositorio>
   ```
 
-Configurando o MongoDB Driver
+## Configurando o MongoDB Driver
 Esta aplicação usa o MongoDB.Driver para se conectar ao banco de dados MongoDB. Se você ainda não tem o driver instalado, siga os passos abaixo:
 
 Instalando o MongoDB.Driver
@@ -33,7 +33,7 @@ No Visual Studio 2022, abra o Gerenciador de Pacotes NuGet.
 Pesquise pelo pacote MongoDB.Driver e instale a versão mais recente.
 
 
-Configurando o MongoDB
+## Configurando o MongoDB
 A aplicação está configurada para se conectar a um banco de dados MongoDB. Para garantir que você consiga acessar os dados, siga as instruções abaixo:
 
 Certifique-se de que o MongoDB está rodando localmente ou configure um banco MongoDB Atlas.
@@ -45,7 +45,7 @@ Dentro do arquivo appsettings.json (ou no arquivo de configuração do seu ambie
 }
 
 
-Executando a Aplicação
+## Executando a Aplicação
 Abra o projeto no Visual Studio 2022.
 Compile o projeto para garantir que todas as dependências estão instaladas corretamente.
 No Visual Studio, pressione Ctrl + F5 ou clique em Run para iniciar a aplicação.
