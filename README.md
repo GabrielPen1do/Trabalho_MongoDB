@@ -65,12 +65,15 @@ Dentro do arquivo appsettings.json (ou no arquivo de configuração do seu ambie
 
 
 ## Executando a Aplicação
-Abra o projeto no Visual Studio 2022.
-Compile o projeto para garantir que todas as dependências estão instaladas corretamente.
-No Visual Studio, pressione Ctrl + F5 ou clique em Run para iniciar a aplicação.
-Problemas Conhecidos
-Certifique-se de que a string de conexão para o MongoDB está corretamente configurada.
-Verifique se o MongoDB está rodando antes de tentar iniciar a aplicação.
+-Abra o projeto no Visual Studio 2022.
+-Compile o projeto para garantir que todas as dependências estão instaladas corretamente.
+-No Visual Studio, pressione Ctrl + F5 ou clique em Run para iniciar a aplicação.
+
+Problemas Conhecidos:
+
+-Certifique-se de que a string de conexão para o MongoDB está corretamente configurada.
+
+-Verifique se o MongoDB está rodando antes de tentar iniciar a aplicação.
 
 
 
