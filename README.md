@@ -17,7 +17,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 2. Execute o seguinte comando para clonar o repositório:
 
    ```bash
-   git clone <URL-do-repositorio>
+      git clone <URL-do-repositorio>
    ```
 3. Após a clonagem, navegue até a pasta do projeto:
 
