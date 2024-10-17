@@ -4,11 +4,12 @@ Este repositório contém um projeto ASP.NET MVC, com integração ao MongoDB us
 
 Antes de começar, certifique-se de ter os seguintes itens instalados:
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) (com suporte ao ASP.NET)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) com suporte ao ASP.NET
 - [.NET SDK](https://dotnet.microsoft.com/download)
-- [MongoDB](https://www.mongodb.com/try/download/community) instalado e em execução localmente ou através de um serviço como MongoDB Atlas
+- [MongoDB](https://www.mongodb.com/try/download/community) (instalado e em execução localmente ou utilizando MongoDB Atlas)
 - Git
-- **MongoDB Driver para .NET** (instruções abaixo)
+- **MongoDB.Driver para .NET** (instruções abaixo)
+- Um arquivo JSON contendo os dados que você deseja importar para o MongoDB
 
 ## Como Clonar o Repositório
 
