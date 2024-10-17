@@ -25,6 +25,19 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
      cd <nome-da-pasta-do-repositorio>
   ```
 
+## Importando o Arquivo JSON para o MongoDB:
+
+Certifique-se de que o MongoDB está rodando no seu sistema (local ou no Atlas).
+
+No terminal ou prompt de comando, navegue até o diretório onde o seu arquivo JSON está salvo.
+
+Execute o seguinte comando mongoimport para importar o arquivo JSON para o MongoDB:
+
+```
+   mongoimport --db <nome-do-seu-banco> --collection <nome-da-collection> --file <caminho-do-arquivo-json> --jsonArray
+```
+
+
 ## Configurando o MongoDB Driver
 Esta aplicação usa o MongoDB.Driver para se conectar ao banco de dados MongoDB. Se você ainda não tem o driver instalado, siga os passos abaixo:
 
